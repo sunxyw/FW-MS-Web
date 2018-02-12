@@ -1,3 +1,9 @@
+/* 全局 */
+p, span, a, input, button, div {
+    font-family: 'Microsoft YaHei', 微软雅黑, sans-serif ! important;
+    font-weight: bold;
+}
+
 /* 加载特效 */
 .loader {
     position: fixed;
@@ -37,4 +43,17 @@
 
 .header a {
     color: #fff;
+}
+
+.header .nav-link:hover {
+    outline: 2px solid #8c8c8c;
+    outline-offset: 1px;
+}
+
+.header .link-active {
+    content: "";
+    bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #bb0033;
 }
