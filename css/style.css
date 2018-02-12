@@ -1,5 +1,5 @@
 /* 全局 */
-p, span, a, input, button, div {
+body {
     font-family: 'Microsoft YaHei', 微软雅黑, sans-serif ! important;
     font-weight: bold;
 }
@@ -11,15 +11,25 @@ p, span, a, input, button, div {
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(51, 51, 51, 1);
+    background: rgba(104, 206, 252, 1);
     z-index: 10;
+    cursor: default;
 }
 
-.loader * {
+.loader img {
     position: absolute;
-    left: 45%;
-    top: 45%;
+    left: 40%;
+    top: 40%;
     z-index: 11;
+}
+
+.loader b {
+    position: absolute;
+    left: 47%;
+    top: 56%;
+    z-index: 11;
+    color: #fff;
+    cursor: inherit;
 }
 
 /* 导航栏 */
